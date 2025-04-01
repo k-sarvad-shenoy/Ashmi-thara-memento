@@ -1,0 +1,150 @@
+
+.img-box{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+  top: 15%;
+}
+.img-box img {
+  height: 100%;
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  transform: translateX(50%);
+}
+.info-box{
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  position: absolute;
+  padding-right: 2%;
+  text-align: justify;
+
+}
+.info-h1 {
+  padding-left: 65%;
+  font-size: 500%;
+  color:  rgba(172, 206, 41.255) ;
+  margin-bottom: 1%;
+}
+.main-box{
+  margin-top: 10%;
+}
+.text-msg{
+  padding-left: 65%;
+  font-family: Roboto Condensed ;
+  line-height: 150%;
+}
+.text-msg-2{
+  padding-left: 65%;
+  font-family: Roboto Condensed ;
+  line-height: 150%;
+}
+.text-msg-1{
+  padding-left: 65%;
+  font-family: Roboto Condensed ;
+  line-height: 150%;
+}
+
+.heart{
+  margin-left: 82%;
+}
+@media screen and (orientation:landscape) and (min-width:0px) and (max-width:600px) {
+.info-h1{
+  font-size: 5vw;
+}
+p{
+  font-size: 2vw ;
+}
+.info-box{
+  bottom: 0%;
+  left: 5%;
+  top: 15%;
+  position: absolute;}
+}
+@media screen and (orientation:landscape) and (min-width: 600px) and (max-width: 701px){
+  .info-h1{
+    font-size: 5vw;
+  }
+  p{
+    font-size: 1.4vw;
+  }
+  .info-box{
+    bottom: 0%;
+    left: 5%;
+    top: 15%;
+    position: absolute;}
+}
+@media screen and (orientation:landscape) and  (min-width:701px) and (max-width: 801px){
+  .info-h1{
+    font-size: 5vw;
+  }
+  p{
+    font-size: 1.4vw;
+  }
+  .info-box{
+    bottom: 0%;
+    left: 5%;
+    top: 15%;
+    right: 10%;
+    position: absolute;}
+}
+@media screen and (orientation:landscape) and  (min-width:801px) and (max-width:1000px){
+  .info-h1{
+    font-size: 5vw;
+  }
+  p{
+    font-size: 1.3vw;
+  }
+  .info-box{
+    bottom: 0%;
+    left: 5%;
+    top: 15%;
+    position: absolute;}
+}
+@media screen and (orientation:landscape) and  (min-width:1000px) and (max-width:1300px){
+  .info-h1{
+    font-size: 5vw;
+  }
+  p{
+    font-size: 2vw;
+  }
+  .info-box{
+    bottom: 0%;
+    left: 5%;
+    top: 15%;
+    position: absolute;}
+}
+@media  screen and (orientation: portrait) and (min-width:0px) and (max-width:900px){
+  .info-box{
+    bottom: 0%;
+    right: 0%;
+    top: 20%;
+    padding-right: 0%;
+  }
+  .info-h1{
+   text-align: center;
+  font-size: 10vh;
+  padding-left: 0%;
+ }
+ p{
+  font-size: 2vh;
+ }
+ .text-msg{
+  text-align: justify;
+  padding-left: 0%;
+ }
+ .text-msg-1{
+  text-align: justify;
+  padding-left: 0%;
+ }
+ .text-msg-2{
+  text-align: justify;
+  padding-left: 0%;
+ }
+ .img-box .pic-ashmi{
+  height: 0%;
+ }
+}

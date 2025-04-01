@@ -1,0 +1,147 @@
+body{
+  background-image: url("red-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+.background{
+  background-color: rgb(241,93,78);
+  position: fixed;
+  top: 0%;
+  bottom: 50%;
+  right: 0%;
+  left: 0%;
+}
+.ack-lol{
+  text-align: center;
+  font-family: Atma;
+  color: white;
+}
+h2{
+  margin-bottom: 0%;
+}
+.img-box{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 15%;
+  left: 0%;
+  right: 0%;
+}
+.group-pic{
+  width: 15vw;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px  rgba(0, 0,  0, 0.4);
+  position: fixed;
+  bottom: 15%;
+}
+.thank-u{
+  font-size: 400%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.p-1{
+  margin: 0%;
+}
+.p-2{
+  margin: 0%;
+  margin-bottom: 1%;
+}
+@media screen and (min-width:0px) and (max-width:600px){
+.group-pic{
+  width: 25vw;
+  bottom: 5%;
+
+}
+.p-1{
+  font-size: 2.8vw;
+}
+.p-2{
+  font-size: 2.8vw;
+}
+h2{
+  font-size: 3vw;
+}
+.thank-u{
+  font-size: 10vw;
+}
+}
+@media screen and (min-width:600px) and (max-width:700px){
+  .group-pic{
+    width: 23vw;
+    bottom: 5%;
+  
+  }
+  .p-1{
+    font-size: 2.8vw;
+  }
+  .p-2{
+    font-size: 2.8vw;
+  }
+  h2{
+    font-size: 2vw;
+  }
+  .thank-u{
+    font-size: 5vw;
+  }
+  }
+  @media screen and (min-width:700px) and (max-width:900px){
+    .group-pic{
+      width: 19vw;
+      bottom: 5%;
+    
+    }
+    .p-1{
+      font-size: 2.5vw;
+    }
+    .p-2{
+      font-size: 2.5vw;
+    }
+    h2{
+      font-size: 1.5vw;
+    }
+    .thank-u{
+      font-size: 4vw;
+    }
+  }
+  @media screen and (min-width:900px) and (max-width:1024px){
+    .group-pic{
+      width: 19vw;
+      bottom: 5%;
+    
+    }
+    .p-1{
+      font-size: 2.5vw;
+    }
+    .p-2{
+      font-size: 2.5vw;
+    }
+    h2{
+      font-size: 1.5vw;
+    }
+    .thank-u{
+      font-size: 4vw;
+    }
+  }
+  @media screen and (min-width:1024px) and (max-width:1200px){
+    .group-pic{
+      width: 24vw;
+      bottom: 5%;
+    
+    }
+    .p-1{
+      font-size: 4vw;
+    }
+    .p-2{
+      font-size: 4vw;
+    }
+    h2{
+      font-size: 3vw;
+    }
+    .thank-u{
+      font-size: 6vw;
+    }
+  }
