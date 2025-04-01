@@ -164,7 +164,7 @@ h2{
       font-size: 7vw;
     }
   }
-  @media screen and (orientation:landscape) and (min-width:1440px) and (max-width:1920px) {
+  @media screen and (orientation:landscape) and (min-width:1440px) and (max-width:2200px) {
     .group-pic{
       width: 0%;
       bottom: 5%;
