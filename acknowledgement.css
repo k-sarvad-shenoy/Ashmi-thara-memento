@@ -50,9 +50,9 @@ h2{
   margin: 0%;
   margin-bottom: 1%;
 }
-@media screen and (min-width:0px) and (max-width:600px){
+media screen and (orientation:landscape) and (min-width:0px) and (max-width:600px){
 .group-pic{
-  width: 25vw;
+  width: 0%;
   bottom: 5%;
 
 }
@@ -69,28 +69,47 @@ h2{
   font-size: 10vw;
 }
 }
-@media screen and (min-width:600px) and (max-width:700px){
+@media screen and (orientation:landscape) and (min-width:600px) and (max-width:700px){
   .group-pic{
-    width: 23vw;
+    width: 0%;
     bottom: 5%;
   
   }
   .p-1{
-    font-size: 2.8vw;
+    font-size: 4vw;
   }
   .p-2{
-    font-size: 2.8vw;
+    font-size: 4vw;
   }
   h2{
-    font-size: 2vw;
+    font-size: 7vw;
   }
   .thank-u{
-    font-size: 5vw;
+    font-size: 8vw;
   }
   }
-  @media screen and (min-width:700px) and (max-width:900px){
+  @media screen and (orientation:landscape) and (min-width:700px) and (max-width:900px){
     .group-pic{
-      width: 19vw;
+      width: 0%;
+      bottom: 5%;
+    
+    }
+    .p-1{
+      font-size: 3vw;
+    }
+    .p-2{
+      font-size: 3vw;
+    }
+    h2{
+      font-size: 6vw;
+    }
+    .thank-u{
+      font-size: 7vw;
+    }
+  }
+  @media screen and (orientation:landscape) and  (min-width:900px) and (max-width:1024px){
+    .group-pic{
+      width: 17vw;
       bottom: 5%;
     
     }
@@ -107,28 +126,9 @@ h2{
       font-size: 4vw;
     }
   }
-  @media screen and (min-width:900px) and (max-width:1024px){
+  @media screen and (orientation:landscape) and  (min-width:1024px) and (max-width:1200px){
     .group-pic{
-      width: 19vw;
-      bottom: 5%;
-    
-    }
-    .p-1{
-      font-size: 2.5vw;
-    }
-    .p-2{
-      font-size: 2.5vw;
-    }
-    h2{
-      font-size: 1.5vw;
-    }
-    .thank-u{
-      font-size: 4vw;
-    }
-  }
-  @media screen and (min-width:1024px) and (max-width:1200px){
-    .group-pic{
-      width: 24vw;
+      width: 0%;
       bottom: 5%;
     
     }
@@ -143,5 +143,43 @@ h2{
     }
     .thank-u{
       font-size: 6vw;
+    }
+  }
+  @media screen and (orientation:landscape) and (min-width:1200px) and (max-width:1440px) {
+    .group-pic{
+      width: 0%;
+      bottom: 5%;
+    
+    }
+    .p-1{
+      font-size: 3vw;
+    }
+    .p-2{
+      font-size: 3vw;
+    }
+    h2{
+      font-size: 3.5vw;
+    }
+    .thank-u{
+      font-size: 7vw;
+    }
+  }
+  @media screen and (orientation:landscape) and (min-width:1440px) and (max-width:1920px) {
+    .group-pic{
+      width: 0%;
+      bottom: 5%;
+    
+    }
+    .p-1{
+      font-size: 3vw;
+    }
+    .p-2{
+      font-size: 3vw;
+    }
+    h2{
+      font-size: 3.5vw;
+    }
+    .thank-u{
+      font-size: 7vw;
     }
   }
