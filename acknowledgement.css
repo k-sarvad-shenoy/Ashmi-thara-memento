@@ -109,7 +109,7 @@ h2{
   }
   @media screen and (orientation:landscape) and  (min-width:900px) and (max-width:1024px){
     .group-pic{
-      width: 17vw;
+      width: 0%;
       bottom: 5%;
     
     }
